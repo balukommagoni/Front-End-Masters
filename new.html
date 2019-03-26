@@ -1,0 +1,9 @@
+<input placeholder="type here" class="first" />
+<p class="second">Repeats as the above.</p>
+<script>
+  const a = document.querySelector('.first');
+  const b = document.querySelector('.second');
+  a.addEventListener("keyup", function() {
+  b.innerText  = a.value;
+  });
+</script>
